@@ -1,0 +1,64 @@
+
+.navbackground {
+  /*  background-image: url('https://i.pinimg.com/originals/99/8e/05/998e055aba57c24138220937cc5166ab.gif'); */
+  background-color: black;
+  opacity: 70%;
+    background-size: contain;
+
+}
+
+body {
+    background-color: rgb(41, 37, 37) !important;
+}
+
+.whitefont {
+    font-family: "Fascinate", cursive;
+    font-size: larger;
+    color: white;
+}
+
+.cardimg {
+    background-image: url('https://i0.wp.com/blog.worldanvil.com/wp-content/uploads/2020/11/Ferdinand-Knab-e1605793110396.jpg?resize=1536%2C1140&ssl=1');
+    background-size: cover;
+}
+
+.padding1 {
+    padding: 10px;
+}
+
+.grid {
+ position: relative;
+ display: flex;
+justify-content: space-evenly;
+}
+
+.grey {
+    color: rgb(121, 103, 103);
+}
+
+.linkblack {
+text-decoration: none;
+ color: inherit;
+}
+
+.table-hover tbody tr:hover {
+    background-color: #f5f5f5;
+  }
+  .bg-dark1 {
+    background-color: #343a40;
+    color: white;
+  }
+.card-body{
+    transition: .5s;
+}
+.card-body:hover{
+    transform: scale(1.0);
+}
+.card{
+    transition: .5s;
+}
+.card:hover{
+    transform: scale(0.9);
+
+}
+
